@@ -107,3 +107,24 @@ button {
 footer{
     text-align: center;
 }
+
+.quote-section{
+    background-color: #E5E7EB;
+    padding: 80px;
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color:#1F2937;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.quote-person{
+    font-weight: bold;
+    font-size: 24px;
+    text-align: right;
+    
+}
