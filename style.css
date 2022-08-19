@@ -45,6 +45,10 @@ li, .awesome-subtext{
     color: #E5E7EB;
 }
 
+li:hover{
+    color: #3882f6;
+}
+
 .awesome{
     font-size: 48px; 
     color: #f9faf8;
@@ -53,7 +57,7 @@ li, .awesome-subtext{
 }
 
 .awesome-subtext{
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .dog{
@@ -68,6 +72,10 @@ li, .awesome-subtext{
     border-radius: 10px;
     border: 0;
     margin-bottom: 150px;
+}
+.top-button:hover{
+    background-color: #E5E7EB;
+    color: #3882f6;
 }
 
 .info{
@@ -96,6 +104,7 @@ li, .awesome-subtext{
     object-fit:cover;
     border-radius: 10px;
     margin-bottom: 10px;
+    border: 1px solid #3882f6;
 }
 
 .pet-subtext{
@@ -108,7 +117,7 @@ li, .awesome-subtext{
 
 .quote-section{
     background-color: #E5E7EB;
-    padding: 150px;
+    padding: 100px;
 }
 
 .quote{
@@ -152,6 +161,11 @@ li, .awesome-subtext{
     font-weight: bold;
     background-color: #3882f6;
     padding: 8px 36px;
+}
+
+.action-button:hover{
+    background-color: #E5E7EB;
+    color: #3882f6;
 }
 
 footer{
