@@ -60,7 +60,7 @@ li, .awesome-subtext{
     height: 200px;
 }
 
-button {
+.top-button {
     color: #E5E7EB;
     font-weight: bold;
     background-color: #3882f6;
@@ -104,13 +104,11 @@ button {
     width: 200px;
 }
 
-footer{
-    text-align: center;
-}
+
 
 .quote-section{
     background-color: #E5E7EB;
-    padding: 80px;
+    padding: 150px;
 }
 
 .quote{
@@ -126,5 +124,37 @@ footer{
     font-weight: bold;
     font-size: 24px;
     text-align: right;
-    
+}
+
+.action-section{
+    color: #E5E7EB;
+    padding: 80px;
+}
+
+.action-subsection{
+    background-color: #3882f6;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    height: 150px;
+}
+
+.action-title{
+    font-weight: bold;
+}
+
+.action-button{
+    border: 2px solid #E5E7EB;
+    border-radius: 10px;
+    color: #E5E7EB;
+    font-weight: bold;
+    background-color: #3882f6;
+    padding: 8px 36px;
+}
+
+footer{
+    text-align: center;
+    padding: 20px
 }
