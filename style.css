@@ -2,7 +2,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.top {
+.top, footer {
     background-color: #1F2937;
     color: white;
     
@@ -13,11 +13,12 @@ body {
     justify-content: space-between;
     padding: 16px;
     align-items: center;
+    margin-bottom: 100px;
 }
 
 .header-logo{
     font-size: 24px;
-    font-weight: bold;
+    font-weight: 600;
     color: #f9faf8;
 }
 
@@ -29,12 +30,47 @@ ul{
     padding: 0;
 }
 
-li{
+.top-content{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+.content-descript{
+    flex-wrap: wrap;
+    width: 450px;
+}
+
+li, .awesome-subtext{
     font-size: 16px;
     color: #E5E7EB;
 }
 
+.awesome{
+    font-size: 48px; 
+    color: #f9faf8;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.awesome-subtext{
+    margin-bottom: 10px;
+}
+
+.dog{
+    height: 200px;
+}
+
+button {
+    color: #E5E7EB;
+    font-weight: bold;
+    background-color: #3882f6;
+    padding: 8px 24px;
+    border-radius: 10px;
+    border: 0;
+    margin-bottom: 100px;
+}
+
+
 footer{
-    background-color: #1F2937;
-    color: white;  
+    text-align: center;
 }
